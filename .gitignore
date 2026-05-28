@@ -1,0 +1,9 @@
+# Raw data - not redistributed, download from Kaggle
+*.csv
+data/
+Dataset/
+
+# Notebook checkpoints / OS files
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
