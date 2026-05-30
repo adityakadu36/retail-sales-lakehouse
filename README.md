@@ -26,6 +26,10 @@ The dataset is not included in this repository. Download it from the link above 
 - Delta Lake
 - Unity Catalog
 
+## Setup
+
+Before running any pipeline notebook for the first time, run `notebooks/setup/00_create_catalog_schemas.ipynb` once to create the catalog and Bronze/Silver/Gold schemas.
+
 ## Project Status
 
 - Bronze — complete ✓
