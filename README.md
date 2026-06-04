@@ -33,7 +33,7 @@ Before running any pipeline notebook for the first time, run `notebooks/setup/00
 ## Project Status
 
 - Bronze — complete ✓
-- Silver — in progress ((customers + orders complete))
+- Silver — in progress ((customers + orders + order_items complete))
 - Gold — planned
 
 ## Repo Structure
