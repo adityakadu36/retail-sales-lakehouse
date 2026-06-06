@@ -44,4 +44,14 @@ retail-sales-lakehouse/
 └── notebooks/
     └── bronze/
         └── Bronze__Ingestion.ipynb
+    └── silver/
+        └── Silver_Customers.ipynb
+        └── Silver_Orders.ipynb
+        └── Silver_order_items.ipynb
+        └── Silver_order_payments.ipynb
+        └── Silver_products.ipynb
+        └── Silver_reviews.ipynb
+        └── Silver_sellers.ipynb
+     └── gold/
+        └──
 ​```
