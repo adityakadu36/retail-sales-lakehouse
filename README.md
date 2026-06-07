@@ -96,7 +96,7 @@ retail-sales-lakehouse/
     │   ├── Silver_reviews.ipynb
     │   └── Silver_sellers.ipynb
     └── gold/
-        ├── Monthly_Revenue.ipynb
+        ├── monthly_revenue.ipynb
         ├── Top_Products_By_Category.ipynb
         ├── Revenue_By_State.ipynb
         └── Order_Status_Funnel.ipynb
