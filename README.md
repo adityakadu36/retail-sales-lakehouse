@@ -32,10 +32,10 @@ Before running any pipeline notebook for the first time, run `notebooks/setup/00
 
 ## Project Status
 
-- Bronze — complete ✓
-- Silver — complete ✓
-- Gold — In Progress
-
+- Bronze — complete ✓ (9 tables, config-driven ingestion)
+- Silver — complete ✓ (7 tables, geolocation deferred)
+- Gold — complete ✓ (4 tables across 4 analytical patterns)
+- 
 ## Repo Structure
 ```
 retail-sales-lakehouse/
@@ -53,5 +53,8 @@ retail-sales-lakehouse/
         └── Silver_reviews.ipynb
         └── Silver_sellers.ipynb
      └── gold/
-        └──
+        └── monthly_revenue
+        └── Top_Products_By_Category
+        └── Revenue_By_state
+        └── Order_Status_Funnel
 ​```
