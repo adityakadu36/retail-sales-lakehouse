@@ -9,7 +9,9 @@ A medallion architecture lakehouse built on Databricks using the Olist Brazilian
 * Quarantine flow — invalid rows are moved to a separate schema with reasons, instead of being dropped silently
 * Four different aggregation patterns in Gold — time-based grouping, window functions (DENSE_RANK), multi-table joins, and conditional aggregation using CASE WHEN
 * Design decisions documented in each notebook — why each choice was made, not just what was done
-* **Pipeline orchestrated as a Databricks Job** — DAG with Bronze → Silver (parallel) → Gold dependencies, running end-to-end on Serverless
+* Pipeline orchestrated as a Databricks Job — DAG with Bronze → Silver (parallel) → Gold dependencies, running end-to-end on Serverless
+  
+![Pipeline Job Graph](docs/Job_Graph.png)
 
 ## Architecture: Bronze → Silver → Gold
 
